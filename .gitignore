@@ -1,0 +1,22 @@
+# MATLAB backup files (created when editing files)
+*.asv
+
+# MATLAB compiled MEX files (platform-specific binaries)
+*.mex*
+*.mexa64
+*.mexw64
+*.mexmaci64
+
+# Simulink auto-generated files and caches
+slprj/                # Folder with simulation and code-generation artifacts
+*.slxc                # Compiled Simulink cache files
+
+# Simulink autosave copies of models (avoid saving these temporary files)
+*_autosave.slx
+
+#ignore test data folder due to file size
+/Test_data
+
+# (Optional) Other temporary or output folders you might generate:
+# build/              # If you have a build folder for generated code or reports
+# output/             # For simulation outputs that shouldn't be tracked
